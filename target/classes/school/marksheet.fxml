@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1189.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.MarksheetController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="1189.0">
+               <padding>
+                  <Insets left="30.0" right="20.0" />
+               </padding>
+               <children>
+                  <Label text="Class">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="700.0" style="-fx-background-color: white; -fx-border-color: none;" vbarPolicy="NEVER" HBox.hgrow="ALWAYS">
+                           <content>
+                              <HBox fx:id="classesContainer" alignment="CENTER_RIGHT" maxWidth="1000.0" prefHeight="48.0" prefWidth="567.0" spacing="20.0" style="-fx-background-color: white;">
+                                 <children>
+                                    <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #D1F6FF;" text="Class" textFill="#0033ff">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <Button fx:id="addclassBtn" mnemonicParsing="false" onAction="#addClass" style="-fx-background-color: none; -fx-background-radius: 20; -fx-background-color: #f8fafc;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/plus.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="132.0" prefWidth="1189.0" style="-fx-background-color: #f8fafc;" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox prefHeight="514.0" prefWidth="1037.0" style="-fx-background-color: #f8fafc;">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <VBox prefHeight="402.0" prefWidth="796.0" style="-fx-background-color: none;">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" minHeight="-Infinity" prefHeight="49.0" prefWidth="781.0" spacing="150.0">
+                                       <children>
+                                          <Label text="Number" textFill="GREY">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Label layoutX="88.0" layoutY="24.0" text="Matricule" textFill="GREY">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="-40.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                          <Label layoutX="60.0" layoutY="24.0" text="Student's Name" textFill="GREY">
+                                             <font>
+                                                <Font name="System Bold" size="14.0" />
+                                             </font>
+                                             <HBox.margin>
+                                                <Insets left="40.0" />
+                                             </HBox.margin>
+                                          </Label>
+                                       </children>
+                                       <padding>
+                                          <Insets left="50.0" />
+                                       </padding>
+                                    </HBox>
+                                    <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: none;" VBox.vgrow="ALWAYS">
+                                       <content>
+                                          <VBox fx:id="listContainer" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0" />
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets top="50.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_RIGHT" prefHeight="514.0" prefWidth="263.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button id="file" fx:id="importBtn" mnemonicParsing="false" onAction="#importClassList" prefHeight="60.0" prefWidth="129.0" style="-fx-background-color: none; -fx-background-radius: 20; -fx-border-radius: 50;" stylesheets="@style.css" text="Import" textFill="#0033ff">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/excel-download-icon-0.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets right="40.0" top="40.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox fx:id="popupbox" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" visible="false" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="243.0" prefWidth="989.0" VBox.vgrow="NEVER">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="340.0" prefWidth="347.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;">
+                     <children>
+                        <HBox alignment="TOP_RIGHT" prefHeight="91.0" prefWidth="245.0">
+                           <children>
+                              <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Label text="Class Name">
+                                       <font>
+                                          <Font name="System Bold Italic" size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="20.0" right="50.0" />
+                                 </padding>
+                              </HBox>
+                              <Button fx:id="closebtn" mnemonicParsing="false" onAction="#closepopup" style="-fx-background-color: none;" text="X" textFill="RED">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="-35.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <TextField fx:id="classfield" prefHeight="30.0" style="-fx-background-radius: 30;">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="savebtn" mnemonicParsing="false" onAction="#saveClass" prefHeight="25.0" prefWidth="242.0" style="-fx-background-radius: 20; -fx-background-color: #0037ff;" text="Add" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="40.0" right="40.0" top="20.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="50.0" right="50.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

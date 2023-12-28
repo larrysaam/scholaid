@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1189.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.SubjectsController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="1189.0">
+               <padding>
+                  <Insets left="30.0" right="20.0" />
+               </padding>
+               <children>
+                  <Label text="Class">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="700.0" style="-fx-background-color: white; -fx-border-color: none;" vbarPolicy="NEVER" HBox.hgrow="ALWAYS">
+                           <content>
+                              <HBox fx:id="classContainer" alignment="CENTER_RIGHT" maxWidth="1000.0" prefHeight="48.0" prefWidth="567.0" spacing="20.0" style="-fx-background-color: white;">
+                                 <children>
+                                    <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #D1F6FF;" text="All" textFill="#0033ff">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="528.0" layoutY="26.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="Form 1B">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="907.0" layoutY="45.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="Form 1C">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="947.0" layoutY="45.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="Form 2A">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="947.0" layoutY="45.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="Form 2B">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="947.0" layoutY="45.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="Form 3">
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="490.0" layoutY="19.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="4A">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="730.0" layoutY="19.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="4B">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="850.0" layoutY="19.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="5">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </content>
+                        </ScrollPane>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <Button fx:id="addBtn" mnemonicParsing="false" onAction="#addClass" style="-fx-background-color: none; -fx-background-radius: 20; -fx-background-color: #f8fafc;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/plus.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="39.0" prefWidth="1089.0">
+               <children>
+                  <Label fx:id="header1" prefHeight="32.0" prefWidth="273.0" text="Select Subjects For This Class" textFill="#807f7f">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="50.0" left="100.0" right="100.0" top="40.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox fx:id="container1" alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="70.0" right="70.0" />
+                     </padding>
+                  </HBox>
+                  <HBox fx:id="container2" alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="70.0" right="70.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox fx:id="container3" alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="70.0" right="70.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox fx:id="container4" alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="30.0" right="100.0" />
+               </padding>
+            </VBox>
+            <HBox layoutX="110.0" layoutY="116.0" prefHeight="58.0" prefWidth="1189.0">
+               <children>
+                  <Label fx:id="hearder2" prefHeight="32.0" prefWidth="219.0" text="Subjects" textFill="#5e5e5e">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="100.0" />
+               </padding>
+            </HBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <HBox fx:id="container5" alignment="CENTER_LEFT" minHeight="-Infinity" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                     <children>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0" />
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="110.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="285.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="460.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="container6" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" minHeight="-Infinity" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                     <children>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0" />
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="110.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="285.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="460.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="container7" alignment="CENTER_LEFT" layoutX="10.0" layoutY="50.0" minHeight="-Infinity" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                     <children>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0" />
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="110.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="285.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="460.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="container8" alignment="CENTER_LEFT" layoutX="10.0" layoutY="90.0" minHeight="-Infinity" prefHeight="40.0" prefWidth="1189.0" spacing="40.0">
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                     <children>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0" />
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="110.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="285.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox id="detailBox" alignment="CENTER_RIGHT" layoutX="460.0" layoutY="10.0" prefHeight="40.0" prefWidth="175.0" style="-fx-background-radius: 20;" stylesheets="@style.css">
+                           <children>
+                              <Label text="Mathematics" textFill="WHITE">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" prefHeight="40.0" prefWidth="52.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" style="-fx-background-color: none;" text="X" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox fx:id="popupbox" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" visible="false" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="243.0" prefWidth="989.0" VBox.vgrow="NEVER">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="340.0" prefWidth="347.0" style="-fx-background-color: white; -fx-border-color: gray; -fx-border-radius: 20; -fx-background-radius: 20;">
+                     <children>
+                        <HBox alignment="TOP_RIGHT" prefHeight="91.0" prefWidth="245.0">
+                           <children>
+                              <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+                                 <padding>
+                                    <Insets bottom="20.0" right="50.0" />
+                                 </padding>
+                                 <children>
+                                    <Label text="Class Name">
+                                       <font>
+                                          <Font name="System Bold Italic" size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <Button fx:id="closebtn" mnemonicParsing="false" onAction="#closepopup" style="-fx-background-color: none;" text="X" textFill="RED">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="-35.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <TextField fx:id="classfield" prefHeight="30.0" style="-fx-background-radius: 30;">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="saveBtn" mnemonicParsing="false" onAction="#saveClass" prefHeight="25.0" prefWidth="242.0" style="-fx-background-radius: 20; -fx-background-color: #0037ff;" text="Add" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="40.0" right="40.0" top="20.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="50.0" right="50.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

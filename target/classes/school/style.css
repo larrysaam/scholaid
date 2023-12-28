@@ -1,0 +1,28 @@
+#detailBox{
+    -fx-background-color: linear-gradient(to bottom, #61d8de, #e839f6);
+}
+
+#detailBox2{
+    -fx-background-color: linear-gradient(to bottom, #ffa12c, #fd3a2d);
+}
+
+#detailBox3{
+    -fx-background-color: linear-gradient(to bottom, #78ec6c, #fefe69);
+}
+
+#file{
+	-fx-border-color: linear-gradient(to bottom, #61d8de, #e839f6);
+	
+}
+
+#resultsBtn{
+	-fx-background-color: none;
+}
+
+#registerBtn{
+	-fx-background-color: none;
+}
+
+#marksheetBtn, #subjectBtn{
+    -fx-background-color: none;
+}

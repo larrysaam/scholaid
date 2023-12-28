@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #D1F6FF;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="school.dashboardController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: white; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="5.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="1186.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets left="30.0" right="20.0" />
+               </padding>
+               <children>
+                  <Label fx:id="heading" text="DASHBOARD">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Button fx:id="englishBtn" mnemonicParsing="false" onAction="#setEnglish" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #D1F6FF;" text="ENG Section" textFill="#0033ff">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="frenchBtn" layoutX="528.0" layoutY="26.0" mnemonicParsing="false" onAction="#setFrench" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="FR Section">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                        <Button fx:id="addsectionBtn" mnemonicParsing="false" onAction="#addSection" style="-fx-background-color: none; -fx-background-radius: 20; -fx-background-color: #f8fafc;" text="+">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <AnchorPane fx:id="centerpane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f8fafc;" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <HBox fx:id="sidebarcontainer" prefHeight="580.0" prefWidth="184.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="600.0" prefWidth="70.0" style="-fx-background-color: black; -fx-background-radius: 25;">
+               <children>
+                  <VBox alignment="TOP_CENTER" layoutY="27.0" prefHeight="291.0" prefWidth="70.0" spacing="50.0" AnchorPane.topAnchor="50.0">
+                     <children>
+                        <Button fx:id="dashboardBtn" mnemonicParsing="false" onAction="#toHome" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #89CFF0; -fx-background-radius: 30;">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/dashboard-512(0).png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="resultsBtn" layoutX="25.0" layoutY="10.0" mnemonicParsing="false" onAction="#toResults" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 30;">
+                           <graphic>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/result.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="registerBtn" layoutX="25.0" layoutY="50.0" mnemonicParsing="false" onAction="#toRegister" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 30;">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/white-plus-icon-3.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="marksheetBtn" layoutX="25.0" layoutY="190.0" mnemonicParsing="false" onAction="#tomarksheet" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 30;">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/white-plus-icon-3.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="subjectBtn" layoutX="25.0" layoutY="266.0" mnemonicParsing="false" onAction="#toSubject" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 30;">
+                           <graphic>
+                              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@img/white-plus-icon-3.jpg" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutY="390.0" prefHeight="41.0" prefWidth="70.0" AnchorPane.bottomAnchor="30.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #89CFF0; -fx-background-radius: 10;" />
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </AnchorPane>
+            <VBox fx:id="seqSelector" alignment="TOP_CENTER" prefHeight="580.0" prefWidth="94.0" style="-fx-background-color: white;">
+               <children>
+                  <Label text="Sequence">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="40.0" top="80.0" />
+                     </VBox.margin>
+                  </Label>
+                  <VBox alignment="CENTER" prefHeight="290.0" prefWidth="108.0" spacing="30.0">
+                     <children>
+                        <Button fx:id="seq1" mnemonicParsing="false" onAction="#setSeq1" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #D1F6FF;" text="1st" textFill="#0033ff">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="seq2" mnemonicParsing="false" onAction="#setSeq2" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="2nd">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="seq3" mnemonicParsing="false" onAction="#setSeq3" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="3rd">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="seq4" mnemonicParsing="false" onAction="#setSeq4" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="4th">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="seq5" mnemonicParsing="false" onAction="#setSeq5" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="5th">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="seq6" layoutX="22.0" layoutY="260.0" mnemonicParsing="false" onAction="#setSeq6" prefHeight="30.0" prefWidth="100.0" style="-fx-background-radius: 10; -fx-background-color: #f8fafc;" text="6th">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="12.0" right="12.0" />
+                     </padding>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </left>
+</BorderPane>

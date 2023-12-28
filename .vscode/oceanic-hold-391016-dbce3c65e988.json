@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "oceanic-hold-391016",
+  "private_key_id": "dbce3c65e988c53593721c770d4a7ad28494beba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwf7ljkTRekjwD\nC3JT1K+sE7TSbyC4fC6s0PPiAHHBZ6vAagZh8AYo/TG7HNrq8Wg1A1EC2fGusq28\nbkJtlj7ylMlqSVtGXgU2aqANP+lI1L/p+YcXgA0lBV7gTl228mCZ9DWoA2x7dBLp\n2NMPgwUXilCGwtqK9c6CYI2B5ac796KLyI94A0FVCVxFwHTpqiq79IejTVtgwERV\nvvHWzbezMuPNgxcAW4n3ixqfeEnJfNRVkDZSoFBut+UfbyOMCnHtGzlR2cwE754q\nDsElSVK9v/3ybcIQs1avnqpIFQCRT88Y+PJUx3je2ULHBWmQijW1t54KKPtaKLoJ\nRYkaeX0DAgMBAAECggEAEUTLPT2Bm7fVbPuA5J3cevV0otriSdqbRdJYl6YGe0Sq\n7nO74HeNCr6hz9ZmFEhUCKJ57yb8JA/HEDbTg12za/r4bVCfFcFGOPRGvkp2Bz0K\n8pgKSoIqBxNsRyheYp4lVdAp3ctJS8I9cCmEQQdx3JiZAg5s4TK6pqakFxpX+fW6\nPhxfBCOARxHTprS+JSY5/vSqAa/DXIFN0auBR9fNl7DcDEUtq+AH0XJ0UWtWYwq1\nS0ahEyjbE/Vq+vyvcEkgMut9qiJCHwPFblUKtEWwS16bpKOJhO9fa8Iol1juzk0y\ntSt9XKP0knbgw+B+4j8pD+dSXNOlfRiCLY7WdWz3EQKBgQDZnSO+LtQ9WvznJEAq\nQXLD29XaDJC0Di1QTn/Q9LSs//CK8LrfQQo9atQ/vf2klpp7d9HhDbDSKft6N1HQ\ns1Dt4FwRjAd0bDkVvsJ8ecMoJLXkaxFHJw69kl8WjemeTEnqIS9vmep3D4BEJB0e\ntKEYvEi0+3QEYLCoRGNHEjxZMQKBgQDPofHwbSDCYqHgw9LOsL7OKJNgs3Hk0J8C\nvBcAAwML0zNK+GaKA/WBe7c3kB7w05Tf0tcyzaG7R6n37CPoTAXdWEnxBL0LuSK8\nbDy6yvteGq7+Dso38OuMiiGqpmtc3tm2G+P/wPPO/WHScYmYaJg/daX+uUFx8A2/\nS+nFCFkscwKBgAYABi9FPUbfzl9VKYvAuDhcRF45wHemeGthbrbFOIIYoHpEPvLO\n6UhePLHxPCAgouvKlvfcl8aDr9Jj2hamCxI0AHXfZYk5Pq2xz8z80nu132oH5bcP\nhaGGeqa1jP53XgZdmeA63zMfM0str7vcASEcd+i9kipYvCY3lIEuKInRAoGACFuO\nb40U+n4Z4gA/5g37QDUl6YiPlxRGskd77YYxgzJXKDdjeT67jSC7uULV2//ISFIm\nU2cvkWhLES2yLFGTEtvQ7iCws14aZdc9go9VGu6cCKHzxdiuwpN003erbquRu+DX\nhp3vsm9ElsH3NelP544GxoASgFGXXBHkMQgq/r0CgYEAzfZOK8AZFFLdqp4JDwEc\nl2/tZQqMlBqgfjOh3fbOcm6pukusJnarKp/Onue94V1AM4zA+y+paeqIkw5xH/fr\ndERTXbSktXKxjsvJHYRvhttT+e7UDFvmdEKX68xBlcWQupcBoDYvJ6otoY1uUgDg\nxO6uHvn4EvfhgFtaA8x6sWM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scholaid@oceanic-hold-391016.iam.gserviceaccount.com",
+  "client_id": "103669970954460609434",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scholaid%40oceanic-hold-391016.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

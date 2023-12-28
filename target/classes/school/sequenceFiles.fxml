@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="120.0" layoutY="300.0" prefHeight="200.0" prefWidth="534.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="534.0" spacing="50.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="132.0" prefWidth="190.0">
+                     <children>
+                        <HBox prefHeight="14.0" prefWidth="234.0">
+                           <children>
+                              <VBox fx:id="file" prefHeight="14.0" prefWidth="89.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="detailBox" alignment="CENTER" prefHeight="115.0" prefWidth="234.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="115.0" prefWidth="188.0" styleClass="file" stylesheets="@style.css">
+                                 <children>
+                                    <Label text="sequence" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="90.0" layoutY="59.0" text="1st" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="605.0" layoutY="10.0" prefHeight="173.0" prefWidth="190.0">
+                     <children>
+                        <HBox prefHeight="14.0" prefWidth="234.0">
+                           <children>
+                              <VBox id="file" fx:id="file111" prefHeight="14.0" prefWidth="86.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="detailBox111" alignment="CENTER" prefHeight="115.0" prefWidth="234.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <VBox id="file" alignment="CENTER" prefHeight="115.0" prefWidth="188.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css">
+                                 <children>
+                                    <Label text="sequence" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="90.0" layoutY="59.0" text="2nd" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" layoutX="722.0" layoutY="10.0" prefHeight="173.0" prefWidth="190.0">
+                     <children>
+                        <HBox prefHeight="14.0" prefWidth="234.0">
+                           <children>
+                              <VBox id="file" fx:id="file1111" prefHeight="14.0" prefWidth="86.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="detailBox1111" alignment="CENTER" prefHeight="115.0" prefWidth="234.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <VBox id="file" alignment="CENTER" prefHeight="115.0" prefWidth="188.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css">
+                                 <children>
+                                    <Label text="sequence" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="90.0" layoutY="59.0" text="3rd" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="107.0" prefWidth="534.0" spacing="50.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="TOP_CENTER" prefHeight="173.0" prefWidth="190.0">
+                     <children>
+                        <HBox prefHeight="14.0" prefWidth="234.0">
+                           <children>
+                              <VBox id="file" fx:id="file1" prefHeight="14.0" prefWidth="86.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="detailBox1" alignment="CENTER" prefHeight="115.0" prefWidth="234.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <VBox id="file" alignment="CENTER" prefHeight="115.0" prefWidth="188.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css">
+                                 <children>
+                                    <Label text="sequence" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="90.0" layoutY="59.0" text="4th" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" prefHeight="173.0" prefWidth="190.0">
+                     <children>
+                        <HBox prefHeight="14.0" prefWidth="234.0">
+                           <children>
+                              <VBox id="file" fx:id="file11" prefHeight="14.0" prefWidth="86.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="detailBox11" alignment="CENTER" prefHeight="115.0" prefWidth="234.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <VBox id="file" alignment="CENTER" prefHeight="115.0" prefWidth="188.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css">
+                                 <children>
+                                    <Label text="sequence" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="90.0" layoutY="59.0" text="5th" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="200.0" layoutY="10.0" prefHeight="173.0" prefWidth="190.0">
+                     <children>
+                        <HBox prefHeight="14.0" prefWidth="234.0">
+                           <children>
+                              <VBox id="file" fx:id="file112" prefHeight="14.0" prefWidth="86.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="detailBox112" alignment="CENTER" prefHeight="115.0" prefWidth="234.0" style="-fx-background-radius: 20;">
+                           <children>
+                              <VBox id="file" alignment="CENTER" prefHeight="115.0" prefWidth="188.0" style="-fx-background-radius: 20;" styleClass="file" stylesheets="@style.css">
+                                 <children>
+                                    <Label text="sequence" textFill="WHITE">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="90.0" layoutY="59.0" text="6th" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
